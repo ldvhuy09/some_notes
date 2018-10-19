@@ -11,6 +11,10 @@ Bắt đầu từ **3.2**, Spring sử dụng *@ControllerAdvice* annotation đ�
 # Solution 1 - *@ExceptionHandler*
 The first solution work at the **Controller level** .
 
+For example:
+
+    public class Foo
+
 We'll define a method to handle exceptions and annotate that with *@ExceptionHandler* which is only action for that particular Controller.
 
 => This approach is the major drawback.
@@ -56,7 +60,8 @@ But, It like the above exceptions, which is limited in the way it deals with the
 ## HandlerExceptionResolver
 
 
-# Publication
+# New Solution 3 - @ControllerAdvice annotation
+
 
 Publishing in StackEdit makes it simple for you to publish online your files. Once you're happy with a file, you can publish it to different hosting platforms like **Blogger**, **Dropbox**, **Gist**, **GitHub**, **Google Drive**, **WordPress** and **Zendesk**. With [Handlebars templates](http://handlebarsjs.com/), you have full control over what you export.
 
@@ -137,6 +142,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNTA3OTMxMSwtMTA4MDQ0MzI4OSwyNT
-A4MzY2OTYsOTIxMzcyNTUwLC0xOTM1MjQ2MzM0XX0=
+eyJoaXN0b3J5IjpbMjU0NTUyOTQ1LDE0MjUwNzkzMTEsLTEwOD
+A0NDMyODksMjUwODM2Njk2LDkyMTM3MjU1MCwtMTkzNTI0NjMz
+NF19
 -->

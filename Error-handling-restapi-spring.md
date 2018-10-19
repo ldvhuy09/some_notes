@@ -67,7 +67,7 @@ But, It like the above exceptions, which is limited in the way it deals with the
 
 # New Solution 3 - @ControllerAdvice annotation
 
-Spring 3.2 brings support for a  global *@ExceptionHandler* with the new *@ControllerAdvice* annotation.
+**Spring 3.2** brings support for a  global *@ExceptionHandler* with the new *@ControllerAdvice* annotation. This enable the mechanism that make use of *ResponseEntity* along with type safety and flexibility of *@ExceptionHandler*.
 
 ## Publish a File
 
@@ -144,7 +144,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYwODM3MTEsMTQyNTA3OTMxMSwtMTA4MD
-Q0MzI4OSwyNTA4MzY2OTYsOTIxMzcyNTUwLC0xOTM1MjQ2MzM0
-XX0=
+eyJoaXN0b3J5IjpbODY4Nzk3ODIwLDE0MjUwNzkzMTEsLTEwOD
+A0NDMyODksMjUwODM2Njk2LDkyMTM3MjU1MCwtMTkzNTI0NjMz
+NF19
 -->

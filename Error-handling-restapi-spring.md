@@ -29,7 +29,11 @@ This **only set the HTTP Status Code** of the Response properly, but it **doesn'
 
 ## ResponseStatusExceptionResolver
 Enabled by default in the DispatcherSerlvet. 
-Its main responsibility is to use the *@ResponseStatus* annotation available on custom exceptions and to 
+Its main responsibility is to use the *@ResponseStatus* annotation **available on custom exceptions** and to map these exceptions to HTTP Status Code .
+
+For example:
+
+    
 
 You can save any file of the workspace to **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Save on**. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.
 
@@ -127,6 +131,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0OTE5MTMyOCw5MjEzNzI1NTAsLTE5Mz
+eyJoaXN0b3J5IjpbLTc1OTgyMTM4Niw5MjEzNzI1NTAsLTE5Mz
 UyNDYzMzRdfQ==
 -->

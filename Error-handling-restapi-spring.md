@@ -35,7 +35,16 @@ For example:
 
     @ResponseStatus(value = HttpStatus.NOT_FOUND)
     public class CustomExc extends RuntimeException {
-	    public 
+	    public CustomExc() {
+		    super();
+	    }
+	    public CustomExc(String msg) {
+		    super(msg);
+	    }
+	    public CustomExc(String msg, Throwable cause) {
+		    super(msg, cause);
+	    }
+    }
 
 You can save any file of the workspace to **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Save on**. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.
 
@@ -133,6 +142,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwOTMwMTgwNCw5MjEzNzI1NTAsLTE5Mz
-UyNDYzMzRdfQ==
+eyJoaXN0b3J5IjpbLTE5MDc2NDk4OTQsOTIxMzcyNTUwLC0xOT
+M1MjQ2MzM0XX0=
 -->

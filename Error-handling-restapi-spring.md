@@ -15,7 +15,8 @@ We'll define a method to handle exceptions and annotate that with *@ExceptionHan
 
 => This approach is the major drawback.
 
-# Solution 2 - The Handler
+# Solution 2 - The HandlerExceptionResolver
+This solution will resolve any exception thrown by the app and allow us to implement a **uniform exception handling mechanism** in REST API
 
 Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
 
@@ -129,5 +130,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2OTgxNTYxMSwtMTkzNTI0NjMzNF19
+eyJoaXN0b3J5IjpbLTU1NDIwNzAyLC0xOTM1MjQ2MzM0XX0=
 -->

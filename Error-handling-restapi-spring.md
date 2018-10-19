@@ -19,8 +19,8 @@ We'll define a method to handle exceptions and annotate that with *@ExceptionHan
 This solution will resolve any exception thrown by the app and allow us to implement a **uniform exception handling mechanism** in REST API
 
 ## ExceptionHandlerExceptionResolver
-This is enabled by default in t
-## Open a file
+This is enabled by default in the DispatcherServlet. This is actually the core component of how the *@ExceptionHandler* mechanism presented earlier works.
+## DefaultHandlerException
 
 You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Open from**. Once opened in the workspace, any modification in the file will be automatically synced.
 
@@ -122,6 +122,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzIxMTEzMjgsOTIxMzcyNTUwLC0xOT
-M1MjQ2MzM0XX0=
+eyJoaXN0b3J5IjpbLTIzODU5MDkxMiw5MjEzNzI1NTAsLTE5Mz
+UyNDYzMzRdfQ==
 -->

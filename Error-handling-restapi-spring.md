@@ -48,7 +48,7 @@ For example:
     }
 
 But, It like the above exceptions, which is limited in the way it deals with the body of response.
-* Deal with: solve a problem or make a decision, or 
+* Deal with: solve a problem or make a decision, or give your attention to s.one/s.thing.
 
 ## Synchronize a file
 
@@ -144,6 +144,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNzYxMjg5NSwyNTA4MzY2OTYsOTIxMz
-cyNTUwLC0xOTM1MjQ2MzM0XX0=
+eyJoaXN0b3J5IjpbLTEwODA0NDMyODksMjUwODM2Njk2LDkyMT
+M3MjU1MCwtMTkzNTI0NjMzNF19
 -->

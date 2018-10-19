@@ -33,7 +33,9 @@ Its main responsibility is to use the *@ResponseStatus* annotation **available o
 
 For example:
 
-    
+    @ResponseStatus(value = HttpStatus.NOT_FOUND)
+    public class CustomExc extends RuntimeException {
+	    public 
 
 You can save any file of the workspace to **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Save on**. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.
 
@@ -131,6 +133,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1OTgyMTM4Niw5MjEzNzI1NTAsLTE5Mz
+eyJoaXN0b3J5IjpbMTQwOTMwMTgwNCw5MjEzNzI1NTAsLTE5Mz
 UyNDYzMzRdfQ==
 -->

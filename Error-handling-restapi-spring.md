@@ -19,11 +19,11 @@ We'll define a method to handle exceptions and annotate that with *@ExceptionHan
 This solution will resolve any exception thrown by the app and allow us to implement a **uniform exception handling mechanism** in REST API
 
 ## ExceptionHandlerExceptionResolver
-This is enabled by default in the DispatcherServlet. This is actually the core component of how the *@ExceptionHandler* mechanism presented earlier works.
+This is enabled by default in the DispatcherServlet. This is actually the core component of how the *@ExceptionHandler* mechanism presented earlier works. 
 ## DefaultHandlerExceptionResolver
 Enabled by default in the DispatcherServlet.
 
-This resolve standard Stexception
+This resolve standard Spring exception to their corresponding HTTP Status code (Client error - 4xx and Server error - 5xx).
 
 You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Open from**. Once opened in the workspace, any modification in the file will be automatically synced.
 
@@ -125,6 +125,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIxNjgyNDk4LDkyMTM3MjU1MCwtMTkzNT
-I0NjMzNF19
+eyJoaXN0b3J5IjpbLTExMDQyMTQyNDIsOTIxMzcyNTUwLC0xOT
+M1MjQ2MzM0XX0=
 -->

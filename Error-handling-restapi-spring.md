@@ -44,8 +44,10 @@ For example:
 	    public CustomExc(String msg, Throwable cause) {
 		    super(msg, cause);
 	    }
+	    .....blabla
     }
 
+But, It like the above exceptions, which is limited in the way it deals with the body of response.
 You can save any file of the workspace to **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Save on**. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.
 
 ## Synchronize a file
@@ -142,6 +144,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDc2NDk4OTQsOTIxMzcyNTUwLC0xOT
-M1MjQ2MzM0XX0=
+eyJoaXN0b3J5IjpbMjUwODM2Njk2LDkyMTM3MjU1MCwtMTkzNT
+I0NjMzNF19
 -->

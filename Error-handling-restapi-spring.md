@@ -73,7 +73,9 @@ But, It like the above exceptions, which is limited in the way it deals with the
 
 Not only simple but also flexible:
 
- - Allow full control the body of response 
+ - Allow full control the body of response .
+ - Allow mapping of several exceptions to the same method (to be handled together).
+ - Allow makes use of ResponseEntity in REST API
 
 ## Publish a File
 
@@ -150,7 +152,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMzAxNDg5OSwtNzIxMTUwOTc0LDE0Mj
+eyJoaXN0b3J5IjpbMTAxNjY1MzIzMCwtNzIxMTUwOTc0LDE0Mj
 UwNzkzMTEsLTEwODA0NDMyODksMjUwODM2Njk2LDkyMTM3MjU1
 MCwtMTkzNTI0NjMzNF19
 -->

@@ -19,17 +19,6 @@ We'll define a method to handle exceptions and annotate that with *@ExceptionHan
 This solution will resolve any exception thrown by the app and allow us to implement a **uniform exception handling mechanism** in REST API
 
 
-
-Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
-
-There are two types of synchronization and they can complement each other:
-
-- The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
-	> To start syncing your workspace, just sign in with Google in the menu.
-
-- The file synchronization will keep one file of the workspace synced with one or multiple files in **Google Drive**, **Dropbox** or **GitHub**.
-	> Before starting to sync files, you must link an account in the **Synchronize** sub-menu.
-
 ## Open a file
 
 You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Open from**. Once opened in the workspace, any modification in the file will be automatically synced.
@@ -132,5 +121,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIxMzcyNTUwLC0xOTM1MjQ2MzM0XX0=
+eyJoaXN0b3J5IjpbMjA1NTY1MTc2Niw5MjEzNzI1NTAsLTE5Mz
+UyNDYzMzRdfQ==
 -->

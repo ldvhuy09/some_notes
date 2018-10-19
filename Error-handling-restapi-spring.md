@@ -71,8 +71,9 @@ But, It like the above exceptions, which is limited in the way it deals with the
 
 > Multiple *@ExceptionHandler* to **single, global* error handling component.
 
-Not only simple but also flexibley:
+Not only simple but also flexible:
 
+ - Allow full control the body of response 
 
 ## Publish a File
 
@@ -149,7 +150,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzIyOTQyODEsLTcyMTE1MDk3NCwxND
-I1MDc5MzExLC0xMDgwNDQzMjg5LDI1MDgzNjY5Niw5MjEzNzI1
-NTAsLTE5MzUyNDYzMzRdfQ==
+eyJoaXN0b3J5IjpbLTcxMzAxNDg5OSwtNzIxMTUwOTc0LDE0Mj
+UwNzkzMTEsLTEwODA0NDMyODksMjUwODM2Njk2LDkyMTM3MjU1
+MCwtMTkzNTI0NjMzNF19
 -->

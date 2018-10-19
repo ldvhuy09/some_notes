@@ -20,7 +20,10 @@ This solution will resolve any exception thrown by the app and allow us to imple
 
 ## ExceptionHandlerExceptionResolver
 This is enabled by default in the DispatcherServlet. This is actually the core component of how the *@ExceptionHandler* mechanism presented earlier works.
-## DefaultHandlerException
+## DefaultHandlerExceptionResolver
+Enabled by default in the DispatcherServlet.
+
+This resolve standard Stexception
 
 You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Open from**. Once opened in the workspace, any modification in the file will be automatically synced.
 
@@ -122,6 +125,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzODU5MDkxMiw5MjEzNzI1NTAsLTE5Mz
-UyNDYzMzRdfQ==
+eyJoaXN0b3J5IjpbMzIxNjgyNDk4LDkyMTM3MjU1MCwtMTkzNT
+I0NjMzNF19
 -->

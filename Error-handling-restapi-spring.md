@@ -50,17 +50,10 @@ For example:
 But, It like the above exceptions, which is limited in the way it deals with the body of response.
 * Deal with: solve a problem or make a decision, or give your attention to s.one/s.thing.
 
-## Synchronize a file
+## SimpleMappingExceptionResolver and AnnotationMethodHandlerExceptionResolver
 
-Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.
 
-If you just have modified your file and you want to force syncing, click the **Synchronize now** button in the navigation bar.
-
-> **Note:** The **Synchronize now** button is disabled if you have no file to synchronize.
-
-## Manage file synchronization
-
-Since one file can be synced with multiple locations, you can list and manage synchronized locations by clicking **File synchronization** in the **Synchronize** sub-menu. This allows you to list and remove synchronized locations that are linked to your file.
+## HandlerExceptionResolver
 
 
 # Publication
@@ -144,6 +137,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODA0NDMyODksMjUwODM2Njk2LDkyMT
-M3MjU1MCwtMTkzNTI0NjMzNF19
+eyJoaXN0b3J5IjpbMTQyNTA3OTMxMSwtMTA4MDQ0MzI4OSwyNT
+A4MzY2OTYsOTIxMzcyNTUwLC0xOTM1MjQ2MzM0XX0=
 -->

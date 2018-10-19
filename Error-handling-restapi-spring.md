@@ -13,7 +13,12 @@ The first solution work at the **Controller level** .
 
 For example:
 
-    public class Foo
+    public class FooController {
+	    @ExceptionHandler({CustomExc1.class, CustomExc2.class})
+	    public void handleException() {
+		    .........
+	    }
+    }
 
 We'll define a method to handle exceptions and annotate that with *@ExceptionHandler* which is only action for that particular Controller.
 
@@ -142,7 +147,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU0NTUyOTQ1LDE0MjUwNzkzMTEsLTEwOD
-A0NDMyODksMjUwODM2Njk2LDkyMTM3MjU1MCwtMTkzNTI0NjMz
-NF19
+eyJoaXN0b3J5IjpbLTE2NDQxMjIwODcsMTQyNTA3OTMxMSwtMT
+A4MDQ0MzI4OSwyNTA4MzY2OTYsOTIxMzcyNTUwLC0xOTM1MjQ2
+MzM0XX0=
 -->

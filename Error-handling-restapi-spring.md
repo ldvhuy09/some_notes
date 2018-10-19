@@ -25,6 +25,8 @@ Enabled by default in the DispatcherServlet.
 
 This resolve standard Spring exception to their corresponding HTTP Status code (Client error - 4xx and Server error - 5xx).
 
+This **only set the HTTP Status Code** of the Response properly, but it **doesn't set anything to body** of response.
+
 You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Open from**. Once opened in the workspace, any modification in the file will be automatically synced.
 
 ## Save a file
@@ -125,6 +127,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDQyMTQyNDIsOTIxMzcyNTUwLC0xOT
+eyJoaXN0b3J5IjpbLTE0MTI4ODEzMzMsOTIxMzcyNTUwLC0xOT
 M1MjQ2MzM0XX0=
 -->

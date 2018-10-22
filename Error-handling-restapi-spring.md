@@ -77,7 +77,9 @@ But, It like the above exceptions, which is limited in the way it deals with the
 		    IllegalArgumentException.class,
 		    IllegalStateException.class})
 	    protected ResponseEntity<Object> handleConflict (RuntimeException exc, WebRequest req) {
-		    
+		    String bodyOfResponse = "....bla..bla";
+		    return handleExceptionInternal(ex, 
+								    bodyOfResponse, new HttpRequest(), HttpStatus.Conflict, req)
 	    }
     }
 
@@ -162,7 +164,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTc4ODYyOCwxMDE2NjUzMjMwLC03Mj
-ExNTA5NzQsMTQyNTA3OTMxMSwtMTA4MDQ0MzI4OSwyNTA4MzY2
-OTYsOTIxMzcyNTUwLC0xOTM1MjQ2MzM0XX0=
+eyJoaXN0b3J5IjpbODA0NDE2NzYxLDEwMTY2NTMyMzAsLTcyMT
+E1MDk3NCwxNDI1MDc5MzExLC0xMDgwNDQzMjg5LDI1MDgzNjY5
+Niw5MjEzNzI1NTAsLTE5MzUyNDYzMzRdfQ==
 -->

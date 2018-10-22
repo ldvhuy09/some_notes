@@ -73,7 +73,12 @@ But, It like the above exceptions, which is limited in the way it deals with the
 
     @ControllerAdvice
     public class RestExceptionHandler extends ResponseEntityExceptionHandler {
-	    @ExceptionHandler({IllegalArgumentException.class, IllegalStateException.``class})
+	    @ExceptionHandler({
+		    IllegalArgumentException.class,
+		    IllegalStateException.class})
+	    protected ResponseEntity<Object> handleConflict (RuntimeException exc, WebRequest req) {
+		    
+	    }
     }
 
 Not only simple but also flexible:
@@ -157,7 +162,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMjQ3NzE3NiwxMDE2NjUzMjMwLC03Mj
+eyJoaXN0b3J5IjpbLTExOTc4ODYyOCwxMDE2NjUzMjMwLC03Mj
 ExNTA5NzQsMTQyNTA3OTMxMSwtMTA4MDQ0MzI4OSwyNTA4MzY2
 OTYsOTIxMzcyNTUwLC0xOTM1MjQ2MzM0XX0=
 -->

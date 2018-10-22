@@ -83,7 +83,7 @@ But, It like the above exceptions, which is limited in the way it deals with the
 					new HttpRequest(),
 					HttpStatus.Conflict, 
 					req );
-    }
+	   }
     }
 
 Not only simple but also flexible:
@@ -93,8 +93,7 @@ Not only simple but also flexible:
  - Allow makes use of ResponseEntity in REST API
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODIzMzA4NzQsNzcwNzg3NDQ2LDEwMT
-Y2NTMyMzAsLTcyMTE1MDk3NCwxNDI1MDc5MzExLC0xMDgwNDQz
-Mjg5LDI1MDgzNjY5Niw5MjEzNzI1NTAsLTE5MzUyNDYzMzRdfQ
-==
+eyJoaXN0b3J5IjpbMTk0NzA0OTgyNiw3NzA3ODc0NDYsMTAxNj
+Y1MzIzMCwtNzIxMTUwOTc0LDE0MjUwNzkzMTEsLTEwODA0NDMy
+ODksMjUwODM2Njk2LDkyMTM3MjU1MCwtMTkzNTI0NjMzNF19
 -->

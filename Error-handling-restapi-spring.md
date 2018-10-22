@@ -79,12 +79,12 @@ But, It like the above exceptions, which is limited in the way it deals with the
 	    protected ResponseEntity<Object> handleConflict (RuntimeException exc, WebRequest req) {
 		    String bodyOfResponse = "....bla..bla";
 		    return handleExceptionInternal(
-							    ex, 
-								bodyOfResponse, 
-								new HttpRequest(),
-								HttpStatus.Conflict, 
-								req);
-	    }
+				    ex, 
+					bodyOfResponse, 
+					new HttpRequest(),
+					HttpStatus.Conflict, 
+					req);
+    }
     }
 
 Not only simple but also flexible:
@@ -94,7 +94,7 @@ Not only simple but also flexible:
  - Allow makes use of ResponseEntity in REST API
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzOTA4MDE1MCw3NzA3ODc0NDYsMTAxNj
-Y1MzIzMCwtNzIxMTUwOTc0LDE0MjUwNzkzMTEsLTEwODA0NDMy
-ODksMjUwODM2Njk2LDkyMTM3MjU1MCwtMTkzNTI0NjMzNF19
+eyJoaXN0b3J5IjpbNzIwNzQyNTIyLDc3MDc4NzQ0NiwxMDE2Nj
+UzMjMwLC03MjExNTA5NzQsMTQyNTA3OTMxMSwtMTA4MDQ0MzI4
+OSwyNTA4MzY2OTYsOTIxMzcyNTUwLC0xOTM1MjQ2MzM0XX0=
 -->
